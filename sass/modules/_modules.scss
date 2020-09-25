@@ -1,0 +1,87 @@
+// Container with player information (score,name,avatar)
+
+.player{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.219);
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.player-info{
+    &--score {
+        font-size: 0.7em;
+        letter-spacing: 3px;
+    }
+    &--avatar {
+        width: 80px;
+    }
+
+    @include sm {
+        &--score {
+            font-size: 0.9em;
+        }
+        &--name {
+            font-size: 1.2em;
+        }
+        &--avatar {
+            width: 120px;
+        }
+    }
+
+    @include md {
+        &--avatar {
+            width: 150px;
+        }
+    }
+}
+
+// Container with player-result information
+.player-result {
+    color: white;
+    font-size: 0.7em;
+
+    @include sm {
+        font-size: 1em;
+    }
+}
+
+// Container with battlefield
+
+.battle {
+    font-size: 1.3rem;
+    margin: 20px 0px 20px 0px;
+    background-color:  rgba(0, 0, 0, 0.219);
+    width: 100%;
+    padding: 20px 0 20px 0;
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.battle.l-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include md {
+        justify-content: left;
+    }
+}
+
+.playerSelection{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.playerSelection *{
+    width: 100px;
+    height: 3.5rem;
+    @include sm {
+                width: 250px;
+                background-color: rgba(0, 0, 0, 0.048);
+            }
+        }

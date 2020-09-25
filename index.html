@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janken Tournament!</title>
+    <!-- LINK  -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="./images/title-janken.png" alt="">
+            <nav>
+                <ul>
+                    <li class="nav--credits">credits</li>
+                    <li class="nav--about">about</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="player">
+                <div class="player-info tac">
+                    <h3 class="player-info--name">Batman</h3>
+                    <img class="player-info--avatar" src="./images/avatar1.png" alt="">
+                </div>
+                <div class="player-result">
+                    <p class="player-result--world"></p>
+                    <p class="player-result--score"></p>
+                </div>
+                <div class="player-info tac">
+                    <h3 id="computerName" class="player-info--name">Jeanette</h3>
+                    <img id="computerAvatar" class="player-info--avatar" src="./images/avatar2.png" alt="">
+                </div>
+            </section>
+            <section class="battle"> <p>I am the battle section</p></section>
+            <section class="playerSelection">
+                <button class="playerSelection-btn--rock"><img src="./images/button-stone.png" alt=""></button>
+                <button class="playerSelection-btn--paper"><img src="./images/button-paper.png" alt=""></button>
+                <button class="playerSelection-btn--scissor"><img src="./images/button-scissor.png" alt=""></button>
+                <button class="playerSelection-btn--menu showHide"> <img src="./images/return-button.png"> </button>
+                <button class="playerSelection-btn--next showHide"> <img src="./images/next-button.png"> </button>
+            </section>
+
+
+
+        </main>
+    </div>
+
+    <script src="./javascript/data.js"></script>
+    <script src="./javascript/function.js"></script>
+    <script src="./javascript/index.js"></script>
+</body>
+
+</html>

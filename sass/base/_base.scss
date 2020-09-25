@@ -1,0 +1,58 @@
+ul, ol {
+    list-style:none;
+    padding-left:0;
+}
+
+button{
+    border: 0;
+    padding: 0;
+}
+
+/*************************************/
+/*              FLEXBOX              */
+/*************************************/
+.d-flex {
+    display: flex;
+    &.align-items-center {
+align-items: center;
+    }
+    &.align-items-end {
+align-items: flex-end;
+    }
+    &.justify-content-center {
+justify-content: center;
+    }
+    &.justify-space-between {
+justify-content: space-between;
+    }
+    &.justify-space-around {
+justify-content: space-around;
+    }
+}
+
+/*************************************/
+/*              UTILE              */
+/*************************************/
+
+
+
+
+
+body{
+    font-size: 0.8rem;
+    background-image: url(../../images/gif-rain-1.gif);
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+main{
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 0.9em;
+}

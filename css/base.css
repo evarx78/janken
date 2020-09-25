@@ -1,0 +1,52 @@
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/*************************************/
+/*              FLEXBOX              */
+/*************************************/
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-flex.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.d-flex.align-items-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.d-flex.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.d-flex.justify-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d-flex.justify-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body {
+  background-color: #373770;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+/*# sourceMappingURL=base.css.map */
